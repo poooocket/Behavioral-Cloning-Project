@@ -90,25 +90,25 @@ The final model architecture (model.py lines 87-100) consisted of a convolution 
 
 Here is a visualization of the architecture]
 
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img1.jpg]
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img1.jpg)
 
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img2.jpg]
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img2.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recover to center lane road. These images show what a recovery looks like:
 
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img3.jpg]
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img4.jpg]
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img3.jpg)
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img4.jpg)
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would help the model to generalize better. For example, here is an image that has then been flipped:
 
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img5.jpg]
-![alt text][https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img6.jpg]
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img5.jpg)
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img6.jpg)
 
 
 After the collection process, I had X number of data points. I then preprocessed this data by converting the image color into grayscale, and using EqualizeHist to improve the image contrast.
