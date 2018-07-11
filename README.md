@@ -108,7 +108,7 @@ Then I repeated this process on track two in order to get more data points.
 To augment the data sat, I also flipped images and angles thinking that this would help the model to generalize better. For example, here is an image that has then been flipped:
 
 ![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img5.jpg)
-![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img6.jpg)
+![alt text](https://github.com/poooocket/Behavioral-Cloning-Project/blob/master/img_store/img6.png)
 
 
 After the collection process, I had X number of data points. I then preprocessed this data by converting the image color into grayscale, and using EqualizeHist to improve the image contrast.
